@@ -50,12 +50,12 @@ header {
 .title{
     width: 423px;
     height: 100%;
-    padding-top: 82px;
+    padding-top: 72px;
     padding-left: 138px;
 }
 
 .name {
-    font-size: 32px;
+    font-size: 40px;
     margin: 0;
 }
 
@@ -85,7 +85,7 @@ header {
   line-height: 1.33;
   text-align: center;
   color: #ffffff;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .hire-me:hover {
@@ -149,4 +149,35 @@ header {
 
 .skills img:hover {
     opacity: .8;
+}
+
+/* About me section */
+.aboutme {
+    width: auto;
+    height: 100%;
+    margin: 0 138px;
+    display: flex;
+}
+
+.div-aboutme, .img-aboutme {
+    width: 50%;
+    height: auto;
+    padding-top: 55px;
+}
+
+.aboutme-pic {
+    width: 356px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.title-aboutme {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-aboutme {
+
 }

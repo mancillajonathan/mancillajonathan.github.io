@@ -3,14 +3,14 @@ const routes = [
         path: '/',
         template: `
         <div class="title-image">
-            <div class="title">
-                <p class="name">I'm <strong>Jonathan</strong></p>
-                <p class="description">A self-taught learner in web development and UI design based in Tijuana, México.</p>
-                <button class="hire-me">Hire me!</button>
-            </div>
-            <div class="image">
-                <img class="landing-img" src="src/img/landing-img.svg" alt="">
-            </div>
+        <div class="title">
+            <p class="name">I'm <strong>Jonathan</strong></p>
+            <p class="description">A self-taught learner in web development and UI design based in Tijuana, México.</p>
+            <button class="hire-me">Hire me!</button>
+        </div>
+        <div class="image">
+            <img class="landing-img" src="src/img/landing-img.svg" alt="">
+        </div>
         </div>
         <div class="skills">
             <div class="frontend">
@@ -34,7 +34,27 @@ const routes = [
     },
     {
         path: '/aboutme',
-        template: '<h1>About me</h1>'
+        template: `
+        <div class="aboutme">
+            <div class="div-aboutme">
+                <div class="whoami">
+                    <p class="title-aboutme">Who Am I?</p>
+                    <p class="content-aboutme">I'm Jonathan Mancilla a 22 years old currently studying an IT mayor, I'm interested in front-end technologies, also I'm a BQQ and friends lover becase nothing good can happen without your friends.</p>
+                </div>
+                <div class="location">
+                    <p class="title-aboutme">My Location</p>
+                    <p class="content-aboutme">I'm Jonathan Mancilla a 22 years old currently studying an IT mayor, I'm interested in front-end technologies, also I'm a BQQ and friends lover becase nothing good can happen without your friends.</p>
+                </div>
+                <div class="socialmedia">
+                    <p class="title-aboutme">Social Media</p>
+                    <p class="content-aboutme">I'm Jonathan Mancilla a 22 years old currently studying an IT mayor, I'm interested in front-end technologies, also I'm a BQQ and friends lover becase nothing good can happen without your friends.</p>
+                </div>
+            </div>
+            <div class="img-aboutme">
+                <img class="aboutme-pic" src="src/img/aboutme-img.svg">
+            </div>
+        </div>        
+        `
     },
     {
         path: '/resume',
