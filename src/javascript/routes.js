@@ -43,11 +43,18 @@ const routes = [
                 </div>
                 <div class="location">
                     <p class="title-aboutme">My Location</p>
-                    <p class="content-aboutme">I'm Jonathan Mancilla a 22 years old currently studying an IT mayor, I'm interested in front-end technologies, also I'm a BQQ and friends lover becase nothing good can happen without your friends.</p>
+                    <p class="content-aboutme">Currently, I'm located at Tijuana, Baja California. The northest state in México.</p>
                 </div>
                 <div class="socialmedia">
                     <p class="title-aboutme">Social Media</p>
-                    <p class="content-aboutme">I'm Jonathan Mancilla a 22 years old currently studying an IT mayor, I'm interested in front-end technologies, also I'm a BQQ and friends lover becase nothing good can happen without your friends.</p>
+                    <p class="content-aboutme">
+                        <ol>
+                            <li><a href="https://github.com/mancillajonathan" target="_blank" rel="noopener"><img src="https://cdn.worldvectorlogo.com/logos/github-icon.svg" alt="html-icon" width="20" height="20"></a></li>
+                            <li><a href="https://facebook.com/mancillajonathan" target="_blank" rel="noopener"><img src="https://cdn.worldvectorlogo.com/logos/facebook-icon.svg" alt="html-icon" width="20" height="20"></a></li>
+                            <li><a href="https://instagram.com/mancilla_jona" target="_blank" rel="noopener"><img src="https://cdn.worldvectorlogo.com/logos/instagram-2-1.svg" alt="html-icon" width="20" height="20"></a></li>
+                            <li><a href="mailto:jairmancillaportillo@gmail.com" target="_blank" rel="noopener"><img src="https://cdn.worldvectorlogo.com/logos/gmail-icon-2.svg" alt="html-icon" width="20" height="20"></a></li>
+                        </ol>
+                    </p>
                 </div>
             </div>
             <div class="img-aboutme">
