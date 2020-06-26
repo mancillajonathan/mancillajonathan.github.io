@@ -29,7 +29,7 @@ const routes = [
                 <img src="src/img/see-more-btn.svg" alt="more-info-button">
             </div>
         </div>
-        <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank"><em>@mancillajonathan</em></a></p>
+        <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank" rel="noopener"><em>@mancillajonathan</em></a></p>
         `
     },
     {
@@ -54,7 +54,7 @@ const routes = [
                 <img class="aboutme-pic" src="src/img/aboutme-img.svg">
             </div>
         </div>       
-        <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank"><em>@mancillajonathan</em></a></p> 
+        <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank" rel="noopener"><em>@mancillajonathan</em></a></p> 
         `
     },
     {
@@ -65,7 +65,7 @@ const routes = [
             <img src="src/img/resume-img.svg" alt="image resume">
             <button class="hire-me"><a href="src/resume.pdf" download>Download</a></button>
         </div>
-        <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank"><em>@mancillajonathan</em></a></p>
-        `
+        <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank"rel="noopener"><em>@mancillajonathan</em></a></p>
+      `
     },
 ];
