@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(122deg, #f5f7fa, #dbe2ee 46%, #c3cfe2);
-    color: #40484E;
 }
 
 header, .links {
@@ -21,7 +20,7 @@ header, .links {
 
 .links div:hover
  {
-    color: #fd5052;
+    color: #4F48EC;
     cursor: pointer
  }
 
@@ -80,7 +79,7 @@ header {
   width: 150px;
   height: 40px;
   border-radius: 24px;
-  background-color: #fd5052;
+  background-color: #4F48EC;
   border-style: none;
   font-size: 18px;
   font-weight: bold;
@@ -136,21 +135,19 @@ header {
 }
 
 .link-github:hover {
-    color: #fd5052;
+    color: #4F48EC;
 }
 
 .skills img {
     width: 38px;
     height: 38px;
-    opacity: 0.7;
-    background-color: #40484e; 
     display:block;
     margin:auto;
     border-radius: 25px;
 }
 
 .skills img:hover {
-    opacity: .8;
+    opacity: .7;
 }
 
 /* About me section */
@@ -191,7 +188,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: bold;
 }
 
 .resume img {

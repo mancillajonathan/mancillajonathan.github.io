@@ -6,7 +6,7 @@ const routes = [
         <div class="title">
             <p class="name">I'm <strong>Jonathan</strong></p>
             <p class="description">A self-taught learner in web development and UI design based in Tijuana, México.</p>
-            <button class="hire-me">Hire me!</button>
+            <button class="hire-me">Conctact me!</button>
         </div>
         <div class="image">
             <img class="landing-img" src="src/img/landing-img.svg" alt="">
@@ -16,17 +16,17 @@ const routes = [
             <div class="frontend">
                 <h3>Front-end Developer</h3>
                 <p>HTML, CSS and JavaScript projects made responsively for mobile.</p>
-                <img src="src/img/see-more-btn.svg" alt="more-info-button">
+                <img src="src/img/see-more-btn.svg" alt=">">
             </div>
             <div class="uidesign">
                 <h3>UX/UI Designer</h3>
                 <p>Adobe XD for components, layouts and UI design systems.</p>
-                <img src="src/img/see-more-btn.svg" alt="more-info-button">
+                <img src="src/img/see-more-btn.svg" alt=">">
             </div>
             <div class="reactdev">
                 <h3>React Developer</h3>
                 <p>React.js, the most popular library for front-end projects.</p>
-                <img src="src/img/see-more-btn.svg" alt="more-info-button">
+                <img src="src/img/see-more-btn.svg" alt=">">
             </div>
         </div>
         <p class="credit-legend">Made with ❤️ by <a class="link-github" href="https://github.com/mancillajonathan" target="_blank" rel="noopener"><em>@mancillajonathan</em></a></p>
